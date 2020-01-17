@@ -1,0 +1,14 @@
+package com.haitao.pages;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+
+@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
+public class PagesApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(PagesApplication.class, args);
+	}
+
+}
