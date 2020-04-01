@@ -1,0 +1,42 @@
+Description
+
+This is an interactive website for exploring the collections of the Art Institute of Chicago. Aiming to attract everyone, especially growing kids, appreciating artworks, writings in their growing up period which is the best time for accepting new concepts and enhancing their feeling sense for art.
+
+Some functions will be developed as follows:
+
+-  Display introduction text , images and other interesting features of the most favourite exhibitions 
+-  Users can sign up accounts with their emails and login to their personal page 
+-  Users can star their favourite exhibitions 
+-  Users can search specific exhibitions by offering some information, e.g. category, year, 
+name, nationality. 
+-  Main page for randomly displaying collections with their descriptions. 
+-  Secondary page for randomly displaying artists with their representatives. 
+-  Some interactive features for buttons, scrolling would be innovated later. 
+Official website of the art Institute of Chicago : www.artic.edu/collection (Links to an external site.)
+Framework(s) 
+Mainly React, Redux, Firebase, Node.js will be used. React is for building functional front end DOM components, while Redux is for storing and managing the application state and necessary data on which the components are dependent. As for web hosting, we deploy our pages on firebase so as to enable internet access. Also, we run our custom API service by employing Node.js. 
+API 
+API: https://aggregator-data.artic.edu/docs/fields#collections
+
+Data from API and our app specifically 
+Those information about collections and writings are coming from APIs. Users account informations, favorite items list are our app specific. 
+
+We will do programming for some interactive features in processing.js.
+
+Features like animation on hovering state, or animations during any components shifting etc , etc.
+
+Interactive features can refer to the website(http://species-in-pieces.com/# (Links to an external site.)) for thoughts. 
+
+The color, font, themes of our user interfaces can be designed related to the museum itself or in a more innovative idea.
+
+The front-end structures will be discussed with our back-end developer.
+
+Server side development
+
+ 
+
+(More details about what features it might have on each page)Database management
+
+ 
+
+(Some database tables and relations in them, like user profile informations, artwork informations etc, etc )
